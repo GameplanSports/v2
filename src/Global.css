@@ -178,3 +178,10 @@
     color: var(--gp-white-background) !important;
     font-weight: normal !important;
 }
+
+.signInBackground {
+    background-color: var(--gp-blue-secondary);
+    padding: 50px;
+    color: var(--bs-secondary-bg);
+    width: 80%;
+}

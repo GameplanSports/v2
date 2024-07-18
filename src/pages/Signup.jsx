@@ -6,7 +6,7 @@ export default function Signup() {
     
     return (
         <div className="container" style={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <div style={{width: '50%'}}>
+            <div className="signInBackground">
                 <h1 className='py-3'>Create an account</h1>
                 <h5>Enter your email to sign up for this app</h5>
                 <Form>
