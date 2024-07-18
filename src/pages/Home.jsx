@@ -16,7 +16,7 @@ export default function Home() {
                 <div style={{ position: 'relative' }}>
                     <img src={hockeyPhoto} alt="Hockey Team" className='p-5' style={{ width: '100%', height: '600px', objectFit: 'cover' }}/>
                     <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center', color: 'white', fontSize: '24px', background: 'rgba(15, 62, 103, 1)', padding: '40px' }}>
-                        <h1 style={{ marginBottom: '0', fontSize: '2.5em'}}>Welcome to the Home Page!</h1>
+                        <h1 style={{ marginBottom: '0', fontSize: '2.5em'}}>Welcome to Gameplan!</h1>
                     </div>
                 </div>
                 
