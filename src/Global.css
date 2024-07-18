@@ -1,0 +1,180 @@
+@charset "UTF-8";
+:root {
+    --gp-blue: #1188F0;
+    --gp-blue-secondary: #0F3E67;
+    --gp-white-background: #FAF9F9;
+    /* Body colours */
+    --bs-body-color: black;
+    --bs-body-bg: #FAF9F9;
+    /* Secondairy colours */
+    --bs-secondary-color: #343434;
+    --bs-secondary-bg: #C8C8C8;
+    /* Tertiairy colours */
+    --bs-tertiary-bg: #696969;
+    --bs-tertiary-bg: #9a9a9a;
+    /* Primary colour */
+    --bs-primary: #1188f0;
+    --bs-primary-rgb: 17, 136, 240;
+    --bs-primary-rgba: 17, 136, 240, 1;
+    --bs-primary-bg-subtle: #125c9c;
+    --bs-primary-text-emphasis: #1188f0;
+    --bs-table-bg: #0F3E67;
+    --bs-danger: #941C2F;
+    --bs-danger-text-emphasis: #58151c;
+
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+#root {
+    font-family: Lalezar;
+    background-color: #FAF9F9;
+}
+
+.gameplanBrandName {
+    color: var(--gp-blue-secondary) !important;
+    font-size: 2em !important;
+}
+
+.cardButton {
+    background-color: var(--gp-blue-secondary) !important;
+    border-color: var(--gp-blue-secondary) !important;
+}
+
+.btn-primary {
+    background-color: var(--gp-blue) !important;
+    border-color: var(--gp-blue) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--gp-blue-secondary) !important;
+    border-color: var(--gp-blue-secondary) !important;
+}
+
+.btn-secondary {
+    background-color: var(--gp-blue-secondary) !important;
+    border-color: var(--gp-blue-secondary) !important;
+    transition-duration: 0.15s;
+}
+
+.btn-secondary:hover {
+    background-color: var(--gp-blue) !important;
+    border-color: var(--gp-blue) !important;
+    cursor: pointer;
+    transition-duration: 0.15s;
+}
+
+.btn-danger {
+    background-color: var(--bs-danger) !important;
+    border-color: var(--bs-danger) !important;
+}
+
+.btn-danger:hover {
+    background-color: var(--bs-danger-text-emphasis) !important;
+    border-color: var(--bs-danger-text-emphasis) !important;
+}
+
+.cardStyle {
+    background-color: var(--gp-white-background) !important;
+}
+
+.eventBoxStyle {
+    border: var(--gp-blue-secondary) 2px solid;
+    border-radius: 25px;
+}
+
+.eventTextStyle {
+    color: var(--gp-blue-secondary);
+    margin: 0px;
+    padding: 5px;
+}
+
+.eventLineStyle {
+    border: var(--gp-blue-secondary) 1px solid;
+    border-radius: 4px;
+    opacity: 1;
+    width: 80%;
+    margin: 5px auto;
+}
+
+.eventBoxRows {
+    margin-top: 20px !important;
+}
+
+.sectionTitle {
+    color: var(--gp-blue);
+    text-align: left;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: .5rem;
+    padding-top: 3rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.teamsLineBreak {
+    border: var(--gp-blue-secondary) 1px solid;
+    border-radius: 4px;
+    opacity: 1;
+    width: 100%;
+    margin: 5px auto 5px auto;
+}
+
+.teamsTextEntries {
+    margin: auto 0px !important;
+}
+
+.filterBody {
+    background-color: var(--gp-white-background) !important;
+    color: black !important;
+    border: 2px solid black !important;
+}
+
+.filterBody:hover {
+    background-color: var(--gp-white-background) !important;
+    color: black !important;
+    border: 2px solid black !important;
+    cursor: default;
+}
+
+.filterXIcon:hover {
+    cursor: pointer !important;
+}
+
+.teamCreationInputDescriptors {
+    text-align: left !important;
+}
+
+#privateTeamSwitch {
+    width: 4em;
+    height: 2em;
+}
+
+#privateTeamSwitch:checked {
+    background-color: var(--gp-blue);
+}
+
+.chatPersonName {
+    color: var(--gp-blue);
+    text-align: left;
+}
+
+.chatText {
+    color: var(--gp-blue-secondary) !important;
+}
+
+.correctBackgroundColor {
+    background-color: var(--gp-white-background);
+}
+
+.table {
+    --bs-table-accent-bg: var(--gp-white-background) !important;
+    --bs-table-striped-bg: #00000020 !important;
+}
+
+.tableHeadItem {
+    --bs-table-accent-bg: var(--gp-blue-secondary) !important;
+    color: var(--gp-white-background) !important;
+    font-weight: normal !important;
+}
