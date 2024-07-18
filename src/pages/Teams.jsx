@@ -53,7 +53,7 @@ export default function Teams() {
                     <Col className='teamsTextEntries col-1'>AAA</Col>
                     <Col className='teamsTextEntries col-1'>Hockey</Col>
                     <Col className='teamsTextEntries col-1'>21/22</Col>
-                    <Col className='teamsTextEntries col-1' style={{ textAlign: 'right' }}><Button variant='danger' className="btn btn-danger" style={{width:'100%'}}>Leave</Button></Col>
+                    <Col className='teamsTextEntries col-1' style={{ textAlign: 'right' }}><Button variant='danger' style={{width:'100%'}}>Leave</Button></Col>
                 </Row>
                 <hr className='teamsLineBreak' />
                 <Row>
@@ -62,7 +62,7 @@ export default function Teams() {
                     <Col className='teamsTextEntries col-1'>B</Col>
                     <Col className='teamsTextEntries col-1'>Tennis</Col>
                     <Col className='teamsTextEntries col-1'>2/2</Col>
-                    <Col className='teamsTextEntries col-1' style={{ textAlign: 'right' }}><Button variant='danger' className="btn btn-danger" style={{width:'100%'}}>Leave</Button></Col>
+                    <Col className='teamsTextEntries col-1' style={{ textAlign: 'right' }}><Button variant='danger' style={{width:'100%'}}>Leave</Button></Col>
                 </Row>
             </Container>
 
