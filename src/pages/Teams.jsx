@@ -169,17 +169,17 @@ export default function Teams() {
 
             <Footer />
 
-            <Modal show={show} onHide={handleCloseLeaveTeamModal}>
+            <Modal show={show} onHide={handleCloseLeaveTeamModal} aria-labelledby="contained-modal-title-vcenter" centered>
                 <Modal.Header closeButton>
-                    <Modal.Title>Modal heading</Modal.Title>
+                    <Modal.Title>Leave team?</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
+                <Modal.Body>Are you sure you would like to leave this team? You cannot reverse this action.</Modal.Body>
                 <Modal.Footer>
-                    <Button variant="secondary" onClick={handleCloseLeaveTeamModal}>
-                        Close
+                    <Button variant="danger" onClick={handleCloseLeaveTeamModal}>
+                        Yes, leave team.
                     </Button>
-                    <Button variant="primary" onClick={handleCloseLeaveTeamModal}>
-                        Save Changes
+                    <Button variant="secondary" onClick={handleCloseLeaveTeamModal}>
+                        No, cancel.
                     </Button>
                 </Modal.Footer>
             </Modal>
