@@ -3,10 +3,17 @@ import Footer from '../components/GameplanFooter';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 import '../Global.css';
 
 export default function Teams() {
+    const [show, setShow] = useState(false);
+
+    const handleCloseLeaveTeamModal = () => setShow(false);
+    const handleShowLeaveTeamModal = () => setShow(true);
+    
     return (
         <div className='container' style={{ minHeight: "100vh" }}>
             <NavbarLoggedIn />
@@ -53,7 +60,7 @@ export default function Teams() {
                     <Col className='teamsTextEntries col-1'>AAA</Col>
                     <Col className='teamsTextEntries col-1'>Hockey</Col>
                     <Col className='teamsTextEntries col-1'>21/22</Col>
-                    <Col className='teamsTextEntries col-1' style={{ textAlign: 'right' }}><Button variant='danger' style={{width:'100%'}}>Leave</Button></Col>
+                    <Col className='teamsTextEntries col-1 leaveTeamButton' style={{ textAlign: 'right' }}><Button variant='danger' style={{width:'100%'}} onClick={handleShowLeaveTeamModal}>Leave</Button></Col>
                 </Row>
                 <hr className='teamsLineBreak' />
                 <Row>
@@ -62,7 +69,7 @@ export default function Teams() {
                     <Col className='teamsTextEntries col-1'>B</Col>
                     <Col className='teamsTextEntries col-1'>Tennis</Col>
                     <Col className='teamsTextEntries col-1'>2/2</Col>
-                    <Col className='teamsTextEntries col-1' style={{ textAlign: 'right' }}><Button variant='danger' style={{width:'100%'}}>Leave</Button></Col>
+                    <Col className='teamsTextEntries col-1 leaveTeamButton' style={{ textAlign: 'right' }}><Button variant='danger' style={{width:'100%'}} onClick={handleShowLeaveTeamModal}>Leave</Button></Col>
                 </Row>
             </Container>
 
@@ -161,6 +168,21 @@ export default function Teams() {
             </Container>
 
             <Footer />
+
+            <Modal show={show} onHide={handleCloseLeaveTeamModal}>
+                <Modal.Header closeButton>
+                    <Modal.Title>Modal heading</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>Woohoo, you are reading this text in a modal!</Modal.Body>
+                <Modal.Footer>
+                    <Button variant="secondary" onClick={handleCloseLeaveTeamModal}>
+                        Close
+                    </Button>
+                    <Button variant="primary" onClick={handleCloseLeaveTeamModal}>
+                        Save Changes
+                    </Button>
+                </Modal.Footer>
+            </Modal>
         </div>
     )
 }
