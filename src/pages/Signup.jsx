@@ -7,6 +7,10 @@ export default function Signup() {
     return (
         <div className="container" style={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
             <div className="signInBackground">
+                {/* Back Button */}
+                <div style={{ position: 'absolute', top: 0, left: 0, padding: '20px' }}>
+                    <Button variant="secondary" href='#/'>Back</Button>
+                </div>
                 <h1 className='py-3'>Create an account</h1>
                 <h5>Enter your email to sign up for this app</h5>
                 <Form>
