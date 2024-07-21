@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/v2/static/css/main.688c89f0.css",
-    "main.js": "/v2/static/js/main.d5f9b0ad.js",
+    "main.css": "/v2/static/css/main.0e6f5590.css",
+    "main.js": "/v2/static/js/main.7e90749a.js",
     "static/js/453.5653e226.chunk.js": "/v2/static/js/453.5653e226.chunk.js",
     "static/media/hockey-team.jpg": "/v2/static/media/hockey-team.65acdd2e5e751e1c1854.jpg",
     "index.html": "/v2/index.html",
-    "main.688c89f0.css.map": "/v2/static/css/main.688c89f0.css.map",
-    "main.d5f9b0ad.js.map": "/v2/static/js/main.d5f9b0ad.js.map",
+    "main.0e6f5590.css.map": "/v2/static/css/main.0e6f5590.css.map",
+    "main.7e90749a.js.map": "/v2/static/js/main.7e90749a.js.map",
     "453.5653e226.chunk.js.map": "/v2/static/js/453.5653e226.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.688c89f0.css",
-    "static/js/main.d5f9b0ad.js"
+    "static/css/main.0e6f5590.css",
+    "static/js/main.7e90749a.js"
   ]
 }
