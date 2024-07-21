@@ -6,9 +6,10 @@ import '../Global.css';
 
 export default function CreateTeams() {
     return (
-        <div className="container" style={{width:'60%'}}>
-            <NavbarLoggedIn />
+        <>
+        <NavbarLoggedIn />
 
+        <div className="container" style={{width:'60%'}}>
             <h1 className='sectionTitle'>Create a team</h1>
             <Form>
                 <Form.Group className="mb-3 py-3" controlId="exampleForm.ControlInput1">
@@ -21,7 +22,7 @@ export default function CreateTeams() {
                 </Form.Group>
                 <Form.Group className="mb-3 py-3" controlId="exampleForm.ControlInput1">
                     <p className='teamCreationInputDescriptors'>Number of players</p>
-                    <Form.Control type="text" placeholder="Number of players" />
+                    <Form.Control type="number" placeholder="Number of players" />
                 </Form.Group>
                 <Form.Group className="mb-3 py-3" controlId="exampleForm.ControlInput1">
                     <p className='teamCreationInputDescriptors'>Team name</p>
@@ -40,10 +41,12 @@ export default function CreateTeams() {
                     <Form.Control as="textarea" rows={5} />
                 </Form.Group>
                 <Form.Group>
-                    <Button variant="primary" type="submit" style={{marginBottom:'3em'}}> Create Team </Button>
+                    <Button variant="primary" type="submit" style={{marginBottom:'3em'}} href='#/teams'> Create Team </Button>
                 </Form.Group>
             </Form>
-            <Footer />
         </div>
+
+        <Footer />
+        </>
     )
 }
