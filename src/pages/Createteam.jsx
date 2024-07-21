@@ -10,6 +10,10 @@ export default function CreateTeams() {
         <NavbarLoggedIn />
 
         <div className="container" style={{width:'60%'}}>
+            {/* Back Button */}
+            <div style={{ position: 'absolute', top: 0, left: 0, padding: '20px' }}>
+                    <Button variant="secondary" href='#/'>Back</Button>
+            </div>
             <h1 className='sectionTitle'>Create a team</h1>
             <Form>
                 <Form.Group className="mb-3 py-3" controlId="exampleForm.ControlInput1">

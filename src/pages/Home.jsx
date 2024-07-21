@@ -26,28 +26,28 @@ export default function Home() {
                     <Card style={{ width: '18rem', margin: '10px' }}>
                         <Card.Body className='cardStyle'>
                             <Card.Title>Teams</Card.Title>
-                            <Card.Text>
-                                Join, create and manage teams with ease with out new team manager.
+                            <Card.Text id='teamsExplanation'>
+                                Join, create and manage teams with ease with our new team manager.
                             </Card.Text>
-                            <a href='#/signin'><Button className="btn btn-secondary">Explore</Button></a>
+                            <Button className="btn btn-secondary" href='#/signin' role="button" aria-describedby="teamsExplanation">Explore</Button>
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem', margin: '10px' }}>
                         <Card.Body className='cardStyle'>
                             <Card.Title>Events</Card.Title>
-                            <Card.Text>
+                            <Card.Text id='dashboardExplanation'>
                                 View your team calendar events easily on your dashboard.
                             </Card.Text>
-                            <a href='#/signin'><Button className="btn btn-secondary">Explore</Button></a>
+                            <Button className="btn btn-secondary" href='#/signin' role="button" aria-describedby="dashboardExplanation">Explore</Button>
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem', margin: '10px' }}>
                         <Card.Body className='cardStyle'>
                             <Card.Title>Chat</Card.Title>
-                            <Card.Text>
+                            <Card.Text id='chatExplanation'>
                                 Chat with your coworkers to prepare for game time using our new chat.
                             </Card.Text>
-                            <a href='#/signin'><Button className="btn btn-secondary">Explore</Button></a>
+                            <Button className="btn btn-secondary" href='#/signin' role="button" aria-describedby="chatExplanation">Explore</Button>
                         </Card.Body>
                     </Card>
                 </div>
