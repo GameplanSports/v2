@@ -185,3 +185,7 @@
     color: var(--bs-secondary-bg);
     width: 80%;
 }
+
+.evenetLocationLink {
+    color: var(--gp-blue-secondary);
+}
