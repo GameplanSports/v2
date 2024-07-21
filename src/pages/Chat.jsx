@@ -16,6 +16,7 @@ import {
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
 
 export default function Chat() {
     return (
@@ -57,7 +58,7 @@ export default function Chat() {
                             </a>
                             </li>
                             <li className="p-2 border-bottom">
-                            <a href="#!" className="d-flex justify-content-between" style={{textDecoration:'none'}}>
+                            <a href="#/chat" className="d-flex justify-content-between" style={{textDecoration:'none'}}>
                                 <div className="d-flex flex-row">
                                 <img
                                     src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-1.webp"
@@ -78,7 +79,7 @@ export default function Chat() {
                             </a>
                             </li>
                             <li className="p-2 border-bottom">
-                            <a href="#!" className="d-flex justify-content-between" style={{textDecoration:'none'}}>
+                            <a href="#/chat" className="d-flex justify-content-between" style={{textDecoration:'none'}}>
                                 <div className="d-flex flex-row">
                                 <img
                                     src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-2.webp"
@@ -99,7 +100,7 @@ export default function Chat() {
                             </a>
                             </li>
                             <li className="p-2 border-bottom">
-                            <a href="#!" className="d-flex justify-content-between" style={{textDecoration:'none'}}>
+                            <a href="#/chat" className="d-flex justify-content-between" style={{textDecoration:'none'}}>
                                 <div className="d-flex flex-row">
                                 <img
                                     src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-3.webp"
@@ -120,7 +121,7 @@ export default function Chat() {
                             </a>
                             </li>
                             <li className="p-2 border-bottom">
-                            <a href="#!" className="d-flex justify-content-between" style={{textDecoration:'none'}}>
+                            <a href="#/chat" className="d-flex justify-content-between" style={{textDecoration:'none'}}>
                                 <div className="d-flex flex-row">
                                 <img
                                     src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-4.webp"
@@ -141,7 +142,7 @@ export default function Chat() {
                             </a>
                             </li>
                             <li className="p-2 border-bottom">
-                            <a href="#!" className="d-flex justify-content-between" style={{textDecoration:'none'}}>
+                            <a href="#/chat" className="d-flex justify-content-between" style={{textDecoration:'none'}}>
                                 <div className="d-flex flex-row">
                                 <img
                                     src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-5.webp"
@@ -162,7 +163,7 @@ export default function Chat() {
                             </a>
                             </li>
                             <li className="p-2">
-                            <a href="#!" className="d-flex justify-content-between" style={{textDecoration:'none'}}>
+                            <a href="#/chat" className="d-flex justify-content-between" style={{textDecoration:'none'}}>
                                 <div className="d-flex flex-row">
                                 <img
                                     src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-6.webp"
@@ -266,12 +267,11 @@ export default function Chat() {
                                         <MDBTextArea id="textAreaExample" rows={1} />
                                     </Col>
                                     <Col className='col-2'>
-                                        <MDBBtn color='primary' style={{width:'100%'}}>Send
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" fill="currentColor" class="bi bi-send" viewBox="0 2 16 14">
-                                            <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
-                                        </svg>
-
-                                        </MDBBtn>
+                                        <Button color='primary' style={{width:'100%'}}> Send
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" fill="currentColor" class="bi bi-send" viewBox="0 2 16 14">
+                                                <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                                            </svg>
+                                        </Button>
                                     </Col>
                                 </Row>
                             </Container>
