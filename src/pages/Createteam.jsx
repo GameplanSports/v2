@@ -17,20 +17,20 @@ export default function CreateTeams() {
             <h1 className='sectionTitle'>Create a team</h1>
             <Form>
                 <Form.Group className="mb-3 py-3" controlId="exampleForm.ControlInput1">
-                    <p className='teamCreationInputDescriptors'>Hockey</p>
-                    <Form.Control type="text" placeholder="Sport" />
+                    <p className='teamCreationInputDescriptors'>Sport</p>
+                    <Form.Control type="text" placeholder="Please enter a sport" />
                 </Form.Group>
                 <Form.Group className="mb-3 py-3" controlId="exampleForm.ControlInput1">
                     <p className='teamCreationInputDescriptors'>Level</p>
-                    <Form.Control type="text" placeholder="Level" />
+                    <Form.Control type="text" placeholder="Please enter a level" />
                 </Form.Group>
                 <Form.Group className="mb-3 py-3" controlId="exampleForm.ControlInput1">
                     <p className='teamCreationInputDescriptors'>Number of players</p>
-                    <Form.Control type="number" placeholder="Number of players" />
+                    <Form.Control type="number" placeholder="Please enter a number of players" />
                 </Form.Group>
                 <Form.Group className="mb-3 py-3" controlId="exampleForm.ControlInput1">
                     <p className='teamCreationInputDescriptors'>Team name</p>
-                    <Form.Control type="text" placeholder="Team Name" />
+                    <Form.Control type="text" placeholder="Please enter a team Name" />
                 </Form.Group>
                 <Form.Group className="mb-3 py-3" controlId="exampleForm.ControlInput1">
                     <p className='teamCreationInputDescriptors'>Private Team</p>
