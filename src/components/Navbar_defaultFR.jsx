@@ -10,9 +10,9 @@ export default function DefaultNavbar() {
                 <Navbar.Brand href="#/" className='gameplanBrandName'>Gameplan</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className="justify-content-end">
-                    <a href='#/fr' className='linkStyle'>Français</a>
-                    <Button className='btn btn-secondary m-3' href='#/signin'>Sign in</Button>
-                    <Button className='btn btn-primary m-3' href='#/signin'>Sign up</Button>
+                    <a href='#/' className='linkStyle'>English</a>
+                    <Button className='btn btn-secondary m-3' href='#/signin'>Se connecter</Button>
+                    <Button className='btn btn-primary m-3' href='#/signin'>Créer un compte</Button>
                 </Navbar.Collapse>
             </Container>
         </Navbar>

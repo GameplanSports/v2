@@ -189,3 +189,7 @@
 .evenetLocationLink {
     color: var(--gp-blue-secondary);
 }
+
+.linkStyle {
+    color: var(--gp-blue);
+}

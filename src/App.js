@@ -1,4 +1,5 @@
 import Home from './pages/Home';
+import HomeFR from './pages/HomeFR';
 import Teams from './pages/Teams';
 import Dashboard from './pages/Dashboard';
 import Signup from './pages/Signup';
@@ -24,6 +25,7 @@ function App() {
           <Route path="/signin" element={<Signin />} />
           <Route path="/createteam" element={<CreateTeam />} />
           <Route path="/chat" element={<Chat />} />
+          <Route path="/fr" element={<HomeFR />} />
         </Routes>
       </div>
     </Router>
